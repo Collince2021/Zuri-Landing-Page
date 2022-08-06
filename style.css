@@ -1,0 +1,186 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+.head-paragraph{
+  line-height:1.5rem;
+  color:rgba(0,0,0,0.9);
+  font-size:16px;
+  }
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+font-family: 'Roboto', sans-serif;
+}
+*,*::before,*::after{
+  box-sizing:border-box;
+}
+.program-zuri_talent,.program-zuri_internship,.program-zuri_training{
+  
+background-color:#fffafa ;
+  padding: 25px;
+  margin: 30px 10px;
+}
+/*.program-zuri_internship p,program-zuri_training p,program-zuri_talent p{
+ color:rgb(0,0,0);
+  z-index: 2;
+}*/
+.description{
+  display:flex;
+  align-items:center;
+  flex-direction:column;
+  margin-bottom:20px ;
+  background-color: #ffffff;
+margin: 0 auto;
+text-align: center;
+  line-height: 2;
+}
+.description p{
+  font-size: 25px;
+}
+a{
+  text-decoration: none;
+}
+.talent img {
+  margin: 50px;
+  width:40%;
+  height: 40%;
+/*width: 100%;*/
+}
+
+.programs p{
+
+margin: 0 auto;
+
+}
+.main p{
+  color: #a9a3a3;
+}
+.main{
+  /*background-color: #ffffff;*/  padding:10px;
+  margin:10px;
+  
+}
+.main h1,a{
+  color: #E7332B;
+}
+.header{
+  background-image: url("https://zuri.team/img/hero-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.logo{
+  padding: 60px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.content-header{
+  margin: 20px;
+  display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-items: center;
+  justify-content: center;
+}
+@media (min-width:769px)
+{
+  .team,.foot-links,.foot-contacts,.foot-social_links{
+    margin:10px;
+    display: block;
+    padding-top:0;
+    max-height:50%;
+    
+  }
+  .foot{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    
+  }
+  .button-one{ margin-right:20px;}
+.button-head{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:row;
+  margin:20px;
+  max-width: 700px;
+
+}
+}
+.button-head{
+  margin: 20px 0;
+
+
+}
+button{
+  height: 80%;
+  padding: 10px;
+  border: none;
+}
+.button1{
+  width: 100%;
+  background-color: #e7332b;
+  color: #fef5f5;
+
+}
+.foot{
+  margin-top: 100px;
+}
+.button2{
+  width:100%;
+   color: #E7332B;
+  background-color:#ffffff ;
+  border:1px solid  #E7332B;
+ 
+}
+.container{
+  
+}
+@media (min-width:992px)
+{
+  .programs{
+   display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+ .team,.foot-links,.foot-contacts,.foot-social_links{
+    margin:10px;
+    display: block;
+   padding:20px;
+    
+  }
+
+@media(max-width:768px)
+{
+  .foot{
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+    
+ }
+}
+.foot-social_links{
+  text-align:center;
+}
+.logo-foot{
+  width: 10%;
+  height: 20%;
+}
+.foot-contacts{
+  margin: 0 auto;
+  text-align: center;
+}
+hr{
+
+height: 2px;
+  border: 0.5px solid rgba(0,0,0,0.19);
+
+}
+.footer-paragraph{
+  text-align: center;
+} 
+
