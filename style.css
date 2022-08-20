@@ -147,14 +147,17 @@ button{
 {
   
   .header{
-  padding-bottom:15em;}
+  padding-bottom:15em;
+  margin-bottom:3em;}
+  
   .main{
-  background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
-  top  left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top  right no-repeat;
-  background-size:30%,30%;}
+    margin-bottom:5em;}
   .programs{
-   display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
+    top  left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top  right no-repeat;
+    background-size:30%,30%;
   }
  .footer-paragraph{
    padding-top:3em;
@@ -162,7 +165,7 @@ button{
   }
   
   .foot hr{
-  margin:0 5em .7em 5em;}
+  margin:2em 5em .7em 5em;}
   .foot{
   margin-top:2em;
   margin-bottom:1em;}
