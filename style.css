@@ -5,6 +5,7 @@
   color:rgba(0,0,0,0.9);
   font-size:16px;
   }
+
 html, body {
   height: 100%;
   width: 100%;
@@ -35,8 +36,12 @@ text-align: center;
   line-height: 2;
 }
 .description p{
-  font-size: 25px;
-  color:#777;
+  font-size:1.2rem;
+  color:rgba(0,0,0,.8);
+  text-align:center;
+  margin-top:0.5rem;
+  margin-bottom:3rem;
+  line-height:2.3rem;
 }
 .programs p{
   color:#777;
@@ -143,6 +148,12 @@ button{
 .container{
   
 }
+@media (min-width:1200px){
+  .programs{
+      background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
+    top  left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top  right no-repeat;
+    background-size:30%,30%;}
+}
 @media (min-width:992px)
 {
   
@@ -156,10 +167,7 @@ button{
   .programs{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-      background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
-    top  left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top  right no-repeat;
-    background-size:30%,30%;
-  }
+      }
  .footer-paragraph{
    padding-top:3em;
    padding-bottom:3em;
