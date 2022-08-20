@@ -149,6 +149,13 @@ button{
    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+ .footer-paragraph{
+   padding-top:3em;
+   padding-bottom:3em;
+  }
+  .foot{
+  margin-top:2em;
+  margin-bottom:1em;}
 }
  .team,.foot-links,.foot-contacts,.foot-social_links{
     margin:10px;
