@@ -145,9 +145,12 @@ button{
 }
 @media (min-width:992px)
 {
+  
+  .header{
+  padding-bottom:5em;}
   .main{
   background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
-  top 3em left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top 3em right no-repeat;
+  top 2em left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top 2em right no-repeat;
   background-size:30%,30%;}
   .programs{
    display: grid;
@@ -159,7 +162,7 @@ button{
   }
   
   .foot hr{
-  margin:0 2em .7em 2em;}
+  margin:0 5em .7em 5em;}
   .foot{
   margin-top:2em;
   margin-bottom:1em;}
