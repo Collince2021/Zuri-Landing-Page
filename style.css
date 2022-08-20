@@ -147,10 +147,10 @@ button{
 {
   
   .header{
-  padding-bottom:5em;}
+  padding-bottom:15em;}
   .main{
   background:url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/left_bvmv7q.png")
-  top 2em left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top 2em right no-repeat;
+  top  left  no-repeat,url("https://res.cloudinary.com/dafsch2zs/image/upload/v1596628122/Zuri%20Landing/right_yz6hn3.png") top  right no-repeat;
   background-size:30%,30%;}
   .programs{
    display: grid;
