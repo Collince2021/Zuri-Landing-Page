@@ -36,6 +36,10 @@ text-align: center;
 }
 .description p{
   font-size: 25px;
+  color:#777;
+}
+.programs p{
+  color:#777;
 }
 a{
   text-decoration: none;
