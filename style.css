@@ -151,7 +151,8 @@ button{
   margin-bottom:3em;}
   
   .main{
-    margin-bottom:5em;}
+    margin-bottom:7em;
+    margin-top:5em;}
   .programs{
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
@@ -165,6 +166,7 @@ button{
   }
   
   .foot hr{
+    max-width:90%;
   margin:2em 5em .7em 5em;}
   .foot{
   margin-top:2em;
